@@ -1,0 +1,55 @@
+.img{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/Alcazaba_Antequera1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.padre{
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+
+}
+
+.cont1{
+
+    height: 300px !important;
+    width: 300px !important;
+    
+
+}
+
+
+.cont2{
+
+    width: 100%;
+    height: 100vh;
+
+}
+.center{
+
+    text-align: center;
+}
+.c{
+    font-weight: 900;
+}
+
+.titulo{
+
+    text-align: center;
+    -webkit-text-stroke: thin;
+  
+}
+
+.fondo{
+
+    background-color: #0606064a;
+}

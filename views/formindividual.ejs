@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel='stylesheet' href='/stylesheets/formindividual.css' />
+</head>
+<body class="bg-dark">
+    
+
+
+    <form action="/form/update/<%= results.idusuario %>" method="post">
+    
+        <input type= "text" name="name_user" value="<%= results.name_user %>" placeholder="Nombre">
+        <input type= "text" name="lastname" value="<%= results.lastname %>"placeholder="Apellidos">
+        <input type= "text" name="email" value="<%= results.email %>" placeholder="Email">
+        <input type= "date" name="date_of_birth" value="<%= results.date_of_birth %>" placeholder="Fecha de nacimiento">
+        <input type= "password" name="password" value="<%= results.password %>" placeholder="contraseña">
+        <input type= "submit" name="submit">
+      
+    </form>
+    
+</body>
+</html>

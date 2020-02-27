@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class= "bg-dark">
+
+
+    <form action="/ruta/update/<%= results.idroute %>" method="post">
+    
+        <input type= "text" name="name" value="<%= results.name %>" placeholder="nombre ruta">
+        <input type= "text" name="description" value="<%= results.description %>" placeholder="descripcion">
+        <input type= "text" name="price" value="<%= results.price %>" placeholder="precio">
+        <input type= "submit" name="submit">
+      
+    </form>
+
+
+</body>
+</html>
